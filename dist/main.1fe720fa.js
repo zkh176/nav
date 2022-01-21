@@ -122,7 +122,7 @@ var render = function render() {
             window.open(node.url);
         });
         $li.on('click', '.close', function (e) {
-            e.stopPropagation(); //阻止冒泡
+            e.stopPropagation(); 
             hashMap.splice(index, 1);
             render();
         });

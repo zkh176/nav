@@ -32,7 +32,7 @@ const render = ()=>{
             window.open(node.url)
         })
         $li.on('click','.close',(e)=>{
-            e.stopPropagation()//阻止冒泡
+            e.stopPropagation()//阻冒泡
             hashMap.splice(index,1)
             render()
         })
