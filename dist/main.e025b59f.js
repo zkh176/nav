@@ -122,7 +122,7 @@ var render = function render() {
             window.open(node.url);
         });
         $li.on('click', '.close', function (e) {
-            e.stopPropagation(); 
+            e.stopPropagation(); //阻冒泡
             hashMap.splice(index, 1);
             render();
         });
@@ -160,4 +160,4 @@ $(document).on('keypress', function (e) {
     }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=/main.1fe720fa.map
+//# sourceMappingURL=main.e025b59f.map
