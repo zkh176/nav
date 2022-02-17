@@ -108,7 +108,7 @@ var $siteList = $('.siteList');
 var $lastLi = $siteList.find('li.last');
 var x = localStorage.getItem('x');
 var xObject = JSON.parse(x);
-var hashMap = xObject || [{ logo: 'A', url: 'https://www.acfun.cn' }, { logo: 'B', url: 'http://www.bilibili.com' }];
+        var hashMap = xObject || [{logo: 'A', url: 'https://www.baidu.com'}, {logo: 'B', url: 'http://www.a.com'}];
 
 var simplifyUrl = function simplifyUrl(url) {
     return url.replace('https://', '').replace('http://', '').replace('www.', '').replace(/\/.*/, ''); //删除/后面的内容
